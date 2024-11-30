@@ -44,7 +44,6 @@ struct PokemonSummaryView: View {
                 .resizable()
                 .scaledToFill()
                 .frame(width: 96, height: 96)
-                .cornerRadius(23)
         }
         .padding(.leading)
         .padding(.vertical, 6)
