@@ -10,14 +10,25 @@ import SwiftUI
 struct PokedexView: View {
     let pokemon: [Pokemon]
     
+    @State private var searchText = ""
+    
+    var filteredPokemon: [Pokemon] {
+        guard !searchText.isEmpty else { return pokemon }
+        return pokemon.filter {$0.name.localizedCaseInsensitiveContains(searchText)}
+    }
+    
     var body: some View {
-        ScrollView {
-            LazyVStack(spacing: 10) {
-                ForEach(pokemon) { pokemon in
-                    PokemonSummaryView(pokedexNumber: pokemon.id, pokemonName: pokemon.name, types: pokemon.types)
-                        .padding(.horizontal, 10)
+        NavigationStack {
+            ScrollView {
+                LazyVStack(spacing: 10) {
+                    ForEach(filteredPokemon) { pokemon in
+                        PokemonSummaryView(pokedexNumber: pokemon.id, pokemonName: pokemon.name, types: pokemon.types)
+                            .padding(.horizontal, 10)
+                    }
                 }
             }
+            .navigationTitle("Pokémon")
+            .searchable(text: $searchText, placement: .automatic, prompt: "Search for a Pokémon")
         }
     }
 }
