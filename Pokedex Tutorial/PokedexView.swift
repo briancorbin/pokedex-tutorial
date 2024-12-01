@@ -11,14 +11,11 @@ struct PokedexView: View {
     let pokemon: [Pokemon]
     
     var body: some View {
-        ScrollView {
-            LazyVStack(spacing: 10) {
-                ForEach(pokemon) { pokemon in
-                    PokemonSummaryView(pokedexNumber: pokemon.id, pokemonName: pokemon.name, types: pokemon.types)
-                        .padding(.horizontal, 10)
-                }
-            }
+        List(pokemon) { pokemon in
+            PokemonSummaryView(pokedexNumber: pokemon.id, pokemonName: pokemon.name, types: pokemon.types)
+                .listRowSeparator(.hidden)
         }
+        .listStyle(.plain)
     }
 }
 
