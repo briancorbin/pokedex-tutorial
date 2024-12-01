@@ -14,6 +14,7 @@ struct PokedexView: View {
         LazyVStack(spacing: 10) {
             ForEach(pokemon) { pokemon in
                 PokemonSummaryView(pokedexNumber: pokemon.id, pokemonName: pokemon.name, types: pokemon.types)
+                    .padding(.horizontal, 10)
             }
         }
     }
