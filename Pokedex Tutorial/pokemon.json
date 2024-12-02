@@ -1,0 +1,3871 @@
+{
+  "data": {
+    "pokemon_v2_pokedex": [
+      {
+        "pokemon_v2_pokemondexnumbers": [
+          {
+            "pokedex_number": 1,
+            "pokemon_v2_pokemonspecy": {
+              "name": "bulbasaur",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 2,
+            "pokemon_v2_pokemonspecy": {
+              "name": "ivysaur",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 3,
+            "pokemon_v2_pokemonspecy": {
+              "name": "venusaur",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 4,
+            "pokemon_v2_pokemonspecy": {
+              "name": "charmander",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 5,
+            "pokemon_v2_pokemonspecy": {
+              "name": "charmeleon",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 6,
+            "pokemon_v2_pokemonspecy": {
+              "name": "charizard",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 16
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 7,
+            "pokemon_v2_pokemonspecy": {
+              "name": "squirtle",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 8,
+            "pokemon_v2_pokemonspecy": {
+              "name": "wartortle",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 9,
+            "pokemon_v2_pokemonspecy": {
+              "name": "blastoise",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 10,
+            "pokemon_v2_pokemonspecy": {
+              "name": "caterpie",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 11,
+            "pokemon_v2_pokemonspecy": {
+              "name": "metapod",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 12,
+            "pokemon_v2_pokemonspecy": {
+              "name": "butterfree",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 13,
+            "pokemon_v2_pokemonspecy": {
+              "name": "weedle",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 14,
+            "pokemon_v2_pokemonspecy": {
+              "name": "kakuna",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 15,
+            "pokemon_v2_pokemonspecy": {
+              "name": "beedrill",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 16,
+            "pokemon_v2_pokemonspecy": {
+              "name": "pidgey",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 17,
+            "pokemon_v2_pokemonspecy": {
+              "name": "pidgeotto",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 18,
+            "pokemon_v2_pokemonspecy": {
+              "name": "pidgeot",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 19,
+            "pokemon_v2_pokemonspecy": {
+              "name": "rattata",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 20,
+            "pokemon_v2_pokemonspecy": {
+              "name": "raticate",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 21,
+            "pokemon_v2_pokemonspecy": {
+              "name": "spearow",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 22,
+            "pokemon_v2_pokemonspecy": {
+              "name": "fearow",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 23,
+            "pokemon_v2_pokemonspecy": {
+              "name": "ekans",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 24,
+            "pokemon_v2_pokemonspecy": {
+              "name": "arbok",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 25,
+            "pokemon_v2_pokemonspecy": {
+              "name": "pikachu",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 26,
+            "pokemon_v2_pokemonspecy": {
+              "name": "raichu",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 27,
+            "pokemon_v2_pokemonspecy": {
+              "name": "sandshrew",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 28,
+            "pokemon_v2_pokemonspecy": {
+              "name": "sandslash",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 29,
+            "pokemon_v2_pokemonspecy": {
+              "name": "nidoran-f",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 30,
+            "pokemon_v2_pokemonspecy": {
+              "name": "nidorina",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 31,
+            "pokemon_v2_pokemonspecy": {
+              "name": "nidoqueen",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 32,
+            "pokemon_v2_pokemonspecy": {
+              "name": "nidoran-m",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 33,
+            "pokemon_v2_pokemonspecy": {
+              "name": "nidorino",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 34,
+            "pokemon_v2_pokemonspecy": {
+              "name": "nidoking",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 35,
+            "pokemon_v2_pokemonspecy": {
+              "name": "clefairy",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 36,
+            "pokemon_v2_pokemonspecy": {
+              "name": "clefable",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 37,
+            "pokemon_v2_pokemonspecy": {
+              "name": "vulpix",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 38,
+            "pokemon_v2_pokemonspecy": {
+              "name": "ninetales",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 39,
+            "pokemon_v2_pokemonspecy": {
+              "name": "jigglypuff",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 40,
+            "pokemon_v2_pokemonspecy": {
+              "name": "wigglytuff",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 41,
+            "pokemon_v2_pokemonspecy": {
+              "name": "zubat",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 42,
+            "pokemon_v2_pokemonspecy": {
+              "name": "golbat",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 43,
+            "pokemon_v2_pokemonspecy": {
+              "name": "oddish",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 44,
+            "pokemon_v2_pokemonspecy": {
+              "name": "gloom",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 45,
+            "pokemon_v2_pokemonspecy": {
+              "name": "vileplume",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 46,
+            "pokemon_v2_pokemonspecy": {
+              "name": "paras",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 47,
+            "pokemon_v2_pokemonspecy": {
+              "name": "parasect",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 48,
+            "pokemon_v2_pokemonspecy": {
+              "name": "venonat",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 49,
+            "pokemon_v2_pokemonspecy": {
+              "name": "venomoth",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 50,
+            "pokemon_v2_pokemonspecy": {
+              "name": "diglett",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 51,
+            "pokemon_v2_pokemonspecy": {
+              "name": "dugtrio",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 52,
+            "pokemon_v2_pokemonspecy": {
+              "name": "meowth",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 53,
+            "pokemon_v2_pokemonspecy": {
+              "name": "persian",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 54,
+            "pokemon_v2_pokemonspecy": {
+              "name": "psyduck",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 55,
+            "pokemon_v2_pokemonspecy": {
+              "name": "golduck",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 56,
+            "pokemon_v2_pokemonspecy": {
+              "name": "mankey",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 57,
+            "pokemon_v2_pokemonspecy": {
+              "name": "primeape",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 58,
+            "pokemon_v2_pokemonspecy": {
+              "name": "growlithe",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 59,
+            "pokemon_v2_pokemonspecy": {
+              "name": "arcanine",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 60,
+            "pokemon_v2_pokemonspecy": {
+              "name": "poliwag",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 61,
+            "pokemon_v2_pokemonspecy": {
+              "name": "poliwhirl",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 62,
+            "pokemon_v2_pokemonspecy": {
+              "name": "poliwrath",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 63,
+            "pokemon_v2_pokemonspecy": {
+              "name": "abra",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 64,
+            "pokemon_v2_pokemonspecy": {
+              "name": "kadabra",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 65,
+            "pokemon_v2_pokemonspecy": {
+              "name": "alakazam",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 66,
+            "pokemon_v2_pokemonspecy": {
+              "name": "machop",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 67,
+            "pokemon_v2_pokemonspecy": {
+              "name": "machoke",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 68,
+            "pokemon_v2_pokemonspecy": {
+              "name": "machamp",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 69,
+            "pokemon_v2_pokemonspecy": {
+              "name": "bellsprout",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 70,
+            "pokemon_v2_pokemonspecy": {
+              "name": "weepinbell",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 71,
+            "pokemon_v2_pokemonspecy": {
+              "name": "victreebel",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 72,
+            "pokemon_v2_pokemonspecy": {
+              "name": "tentacool",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 73,
+            "pokemon_v2_pokemonspecy": {
+              "name": "tentacruel",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 74,
+            "pokemon_v2_pokemonspecy": {
+              "name": "geodude",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 75,
+            "pokemon_v2_pokemonspecy": {
+              "name": "graveler",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 76,
+            "pokemon_v2_pokemonspecy": {
+              "name": "golem",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 77,
+            "pokemon_v2_pokemonspecy": {
+              "name": "ponyta",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 78,
+            "pokemon_v2_pokemonspecy": {
+              "name": "rapidash",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 79,
+            "pokemon_v2_pokemonspecy": {
+              "name": "slowpoke",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 80,
+            "pokemon_v2_pokemonspecy": {
+              "name": "slowbro",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 81,
+            "pokemon_v2_pokemonspecy": {
+              "name": "magnemite",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 82,
+            "pokemon_v2_pokemonspecy": {
+              "name": "magneton",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 9
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 83,
+            "pokemon_v2_pokemonspecy": {
+              "name": "farfetchd",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 84,
+            "pokemon_v2_pokemonspecy": {
+              "name": "doduo",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 85,
+            "pokemon_v2_pokemonspecy": {
+              "name": "dodrio",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 86,
+            "pokemon_v2_pokemonspecy": {
+              "name": "seel",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 87,
+            "pokemon_v2_pokemonspecy": {
+              "name": "dewgong",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 88,
+            "pokemon_v2_pokemonspecy": {
+              "name": "grimer",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 89,
+            "pokemon_v2_pokemonspecy": {
+              "name": "muk",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 90,
+            "pokemon_v2_pokemonspecy": {
+              "name": "shellder",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 91,
+            "pokemon_v2_pokemonspecy": {
+              "name": "cloyster",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 92,
+            "pokemon_v2_pokemonspecy": {
+              "name": "gastly",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 93,
+            "pokemon_v2_pokemonspecy": {
+              "name": "haunter",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 94,
+            "pokemon_v2_pokemonspecy": {
+              "name": "gengar",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 95,
+            "pokemon_v2_pokemonspecy": {
+              "name": "onix",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 96,
+            "pokemon_v2_pokemonspecy": {
+              "name": "drowzee",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 97,
+            "pokemon_v2_pokemonspecy": {
+              "name": "hypno",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 98,
+            "pokemon_v2_pokemonspecy": {
+              "name": "krabby",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 99,
+            "pokemon_v2_pokemonspecy": {
+              "name": "kingler",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 100,
+            "pokemon_v2_pokemonspecy": {
+              "name": "voltorb",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 101,
+            "pokemon_v2_pokemonspecy": {
+              "name": "electrode",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 102,
+            "pokemon_v2_pokemonspecy": {
+              "name": "exeggcute",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 103,
+            "pokemon_v2_pokemonspecy": {
+              "name": "exeggutor",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 16
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 104,
+            "pokemon_v2_pokemonspecy": {
+              "name": "cubone",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 105,
+            "pokemon_v2_pokemonspecy": {
+              "name": "marowak",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 8
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 106,
+            "pokemon_v2_pokemonspecy": {
+              "name": "hitmonlee",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 107,
+            "pokemon_v2_pokemonspecy": {
+              "name": "hitmonchan",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 108,
+            "pokemon_v2_pokemonspecy": {
+              "name": "lickitung",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 109,
+            "pokemon_v2_pokemonspecy": {
+              "name": "koffing",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 110,
+            "pokemon_v2_pokemonspecy": {
+              "name": "weezing",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 4
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 111,
+            "pokemon_v2_pokemonspecy": {
+              "name": "rhyhorn",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 112,
+            "pokemon_v2_pokemonspecy": {
+              "name": "rhydon",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 5
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 113,
+            "pokemon_v2_pokemonspecy": {
+              "name": "chansey",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 114,
+            "pokemon_v2_pokemonspecy": {
+              "name": "tangela",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 12
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 115,
+            "pokemon_v2_pokemonspecy": {
+              "name": "kangaskhan",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 116,
+            "pokemon_v2_pokemonspecy": {
+              "name": "horsea",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 117,
+            "pokemon_v2_pokemonspecy": {
+              "name": "seadra",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 118,
+            "pokemon_v2_pokemonspecy": {
+              "name": "goldeen",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 119,
+            "pokemon_v2_pokemonspecy": {
+              "name": "seaking",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 120,
+            "pokemon_v2_pokemonspecy": {
+              "name": "staryu",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 121,
+            "pokemon_v2_pokemonspecy": {
+              "name": "starmie",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 122,
+            "pokemon_v2_pokemonspecy": {
+              "name": "mr-mime",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 18
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 123,
+            "pokemon_v2_pokemonspecy": {
+              "name": "scyther",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 124,
+            "pokemon_v2_pokemonspecy": {
+              "name": "jynx",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 125,
+            "pokemon_v2_pokemonspecy": {
+              "name": "electabuzz",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 126,
+            "pokemon_v2_pokemonspecy": {
+              "name": "magmar",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 127,
+            "pokemon_v2_pokemonspecy": {
+              "name": "pinsir",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 7
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 128,
+            "pokemon_v2_pokemonspecy": {
+              "name": "tauros",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 129,
+            "pokemon_v2_pokemonspecy": {
+              "name": "magikarp",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 130,
+            "pokemon_v2_pokemonspecy": {
+              "name": "gyarados",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 131,
+            "pokemon_v2_pokemonspecy": {
+              "name": "lapras",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 132,
+            "pokemon_v2_pokemonspecy": {
+              "name": "ditto",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 133,
+            "pokemon_v2_pokemonspecy": {
+              "name": "eevee",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 134,
+            "pokemon_v2_pokemonspecy": {
+              "name": "vaporeon",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 135,
+            "pokemon_v2_pokemonspecy": {
+              "name": "jolteon",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 136,
+            "pokemon_v2_pokemonspecy": {
+              "name": "flareon",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 137,
+            "pokemon_v2_pokemonspecy": {
+              "name": "porygon",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 138,
+            "pokemon_v2_pokemonspecy": {
+              "name": "omanyte",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 139,
+            "pokemon_v2_pokemonspecy": {
+              "name": "omastar",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 140,
+            "pokemon_v2_pokemonspecy": {
+              "name": "kabuto",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 141,
+            "pokemon_v2_pokemonspecy": {
+              "name": "kabutops",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 11
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 142,
+            "pokemon_v2_pokemonspecy": {
+              "name": "aerodactyl",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 6
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 143,
+            "pokemon_v2_pokemonspecy": {
+              "name": "snorlax",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 144,
+            "pokemon_v2_pokemonspecy": {
+              "name": "articuno",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 15
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 145,
+            "pokemon_v2_pokemonspecy": {
+              "name": "zapdos",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 13
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 146,
+            "pokemon_v2_pokemonspecy": {
+              "name": "moltres",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 10
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 17
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 147,
+            "pokemon_v2_pokemonspecy": {
+              "name": "dratini",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 16
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 148,
+            "pokemon_v2_pokemonspecy": {
+              "name": "dragonair",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 16
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 149,
+            "pokemon_v2_pokemonspecy": {
+              "name": "dragonite",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 16
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 150,
+            "pokemon_v2_pokemonspecy": {
+              "name": "mewtwo",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    },
+                    {
+                      "pokemon_v2_type": {
+                        "id": 2
+                      }
+                    }
+                  ]
+                },
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "pokedex_number": 151,
+            "pokemon_v2_pokemonspecy": {
+              "name": "mew",
+              "pokemon_v2_pokemons": [
+                {
+                  "pokemon_v2_pokemontypes": [
+                    {
+                      "pokemon_v2_type": {
+                        "id": 14
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
