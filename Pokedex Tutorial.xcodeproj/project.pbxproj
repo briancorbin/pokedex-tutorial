@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E86A47302D08A21B00546CC2 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = E86A472F2D08A21B00546CC2 /* Apollo */; };
+		E86A47382D09DFA800546CC2 /* PokeApi in Frameworks */ = {isa = PBXBuildFile; productRef = E86A47372D09DFA800546CC2 /* PokeApi */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E87B28592CFA189B00DDF95E /* Pokedex Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokedex Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,16 +28,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86A47382D09DFA800546CC2 /* PokeApi in Frameworks */,
+				E86A47302D08A21B00546CC2 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E86A472E2D08A21B00546CC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E87B28502CFA189B00DDF95E = {
 			isa = PBXGroup;
 			children = (
 				E87B285B2CFA189B00DDF95E /* Pokedex Tutorial */,
+				E86A472E2D08A21B00546CC2 /* Frameworks */,
 				E87B285A2CFA189B00DDF95E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +80,8 @@
 			);
 			name = "Pokedex Tutorial";
 			packageProductDependencies = (
+				E86A472F2D08A21B00546CC2 /* Apollo */,
+				E86A47372D09DFA800546CC2 /* PokeApi */,
 			);
 			productName = "Pokedex Tutorial";
 			productReference = E87B28592CFA189B00DDF95E /* Pokedex Tutorial.app */;
@@ -94,6 +111,10 @@
 			);
 			mainGroup = E87B28502CFA189B00DDF95E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E86A472D2D08A21400546CC2 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				E86A47362D09DFA800546CC2 /* XCLocalSwiftPackageReference "pokeApi" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E87B285A2CFA189B00DDF95E /* Products */;
 			projectDirPath = "";
@@ -324,6 +345,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E86A47362D09DFA800546CC2 /* XCLocalSwiftPackageReference "pokeApi" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = pokeApi;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E86A472D2D08A21400546CC2 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E86A472F2D08A21B00546CC2 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86A472D2D08A21400546CC2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		E86A47372D09DFA800546CC2 /* PokeApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PokeApi;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E87B28512CFA189B00DDF95E /* Project object */;
 }

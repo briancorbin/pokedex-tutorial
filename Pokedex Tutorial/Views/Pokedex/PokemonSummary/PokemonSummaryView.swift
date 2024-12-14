@@ -22,7 +22,7 @@ struct PokemonSummaryView: View {
                 HStack {
                     Text(pokedexNumberFormatted)
                         .font(.title2)
-                    Text(pokemonName)
+                    Text(pokemonName.capitalized)
                         .font(.title2)
                         .bold()
                         .lineLimit(1)
@@ -53,6 +53,6 @@ struct PokemonSummaryView: View {
     }
 }
 
-#Preview {
-    PokemonSummaryView(pokedexNumber: 1, pokemonName: "Bulbasaur", types: [.grass, .poison]).previewLayout(.sizeThatFits)
+#Preview(traits: .sizeThatFitsLayout) {
+    PokemonSummaryView(pokedexNumber: 1, pokemonName: "Bulbasaur", types: [.grass, .poison])
 }

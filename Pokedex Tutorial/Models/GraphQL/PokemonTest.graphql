@@ -1,0 +1,12 @@
+query PokemonTest {
+  pokemon_v2_pokemon {
+    name
+    height
+    weight
+    pokemon_v2_pokemontypes {
+      pokemon_v2_type {
+        name
+      }
+    }
+  }
+}

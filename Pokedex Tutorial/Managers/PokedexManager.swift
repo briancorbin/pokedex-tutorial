@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import Apollo
+import PokeApi
 
 class PokedexManager: ObservableObject {
     @Published var pokemon: [Pokemon] = []
+    let apolloClient = ApolloClient(url: URL(string: "https://beta.pokeapi.co/graphql/v1beta")!)
     
     init() {
-        loadPokemon()
+        apolloClient.fetch(query: PokedexPokemonQuery(pokedexId: 2)) { result in
+            switch result {
+            case .success(let response):
+                self.pokemon = response.data!.pokemon_v2_pokedex.first!.pokemon_v2_pokemondexnumbers.map({ Pokemon(pokemonDexNumber: $0) })
+            case .failure(let error):
+                debugPrint(error)
+            }
+        }
     }
     
     private func loadPokemon() {
