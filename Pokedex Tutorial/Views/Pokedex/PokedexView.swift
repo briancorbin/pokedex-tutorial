@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct PokedexView: View {
-    let pokemon: [Pokemon]
+    let pokemon: [PokemonSummary]
     
     @State private var searchText = ""
     
-    var filteredPokemon: [Pokemon] {
+    var filteredPokemon: [PokemonSummary] {
         guard !searchText.isEmpty else { return pokemon }
         return pokemon.filter {$0.name.localizedCaseInsensitiveContains(searchText)}
     }
@@ -34,5 +34,5 @@ struct PokedexView: View {
 }
 
 #Preview {
-    PokedexView(pokemon: [Pokemon(id: 1, name: "Bulbasaur", types: [.grass, .poison]), Pokemon(id: 2, name: "Ivysaur", types: [.grass, .poison]), Pokemon(id: 3, name: "Venusaur", types: [.grass, .poison])])
+    PokedexView(pokemon: [PokemonSummary(id: 1, name: "Bulbasaur", types: [.grass, .poison]), PokemonSummary(id: 2, name: "Ivysaur", types: [.grass, .poison]), PokemonSummary(id: 3, name: "Venusaur", types: [.grass, .poison])])
 }

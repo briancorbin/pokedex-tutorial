@@ -8,16 +8,19 @@
 import SwiftUI
 import Apollo
 import PokeApi
+import AVFoundation
 
 class PokedexManager: ObservableObject {
-    @Published var pokemon: [Pokemon] = []
-    let apolloClient = ApolloClient(url: URL(string: "https://beta.pokeapi.co/graphql/v1beta")!)
+    @Published var pokemon: [PokemonSummary] = []
+    
+    private let apolloClient = ApolloClient(url: URL(string: "https://beta.pokeapi.co/graphql/v1beta")!)
+    private static var avPlayer = AVPlayer()
     
     init() {
         apolloClient.fetch(query: PokedexPokemonQuery(pokedexId: 2)) { result in
             switch result {
             case .success(let response):
-                self.pokemon = response.data!.pokemon_v2_pokedex.first!.pokemon_v2_pokemondexnumbers.map({ Pokemon(pokemonDexNumber: $0) })
+                self.pokemon = response.data!.pokemon_v2_pokedex.first!.pokemon_v2_pokemondexnumbers.map({ PokemonSummary(pokemonDexNumber: $0) })
             case .failure(let error):
                 debugPrint(error)
             }
@@ -47,8 +50,14 @@ class PokedexManager: ObservableObject {
                 return type
             }
             
-            let newPokemon = Pokemon(id: pokedexNumber, name: pokemonName, types: types)
+            let newPokemon = PokemonSummary(id: pokedexNumber, name: pokemonName, types: types)
             return newPokemon
         }
+    }
+    
+    static func playCry(forSpeciesId speciesId: Int) {
+        let playerItem = AVPlayerItem(url: URL(string: "https://pokemoncries.com/cries/\(speciesId).mp3")!)
+        avPlayer = AVPlayer(playerItem: playerItem)
+        avPlayer.play()
     }
 }

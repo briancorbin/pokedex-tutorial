@@ -8,7 +8,7 @@
 import SwiftUI
 import PokeApi
 
-struct Pokemon: Identifiable {
+struct PokemonSummary: Identifiable {
     let id: Int
     let name: String
     let types: [PokemonType]
