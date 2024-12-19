@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SpeciesInfoView: View {
+struct PokemonSpeciesInfoView: View {
     let id: Int
     let height: Int
     let weight: Int
@@ -84,6 +84,6 @@ struct SpeciesInfoImageView: View {
 }
 
 #Preview {
-    SpeciesInfoView(id: 1, height: 160, weight: 160, bodyShapeId: 1, genus: "Seed", color: .grass, playCry: nil)
+    PokemonSpeciesInfoView(id: 1, height: 160, weight: 160, bodyShapeId: 1, genus: "Seed", color: .grass, playCry: nil)
 
 }
