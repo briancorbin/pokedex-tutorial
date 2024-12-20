@@ -16,7 +16,7 @@ struct PokemonStatsInfoView: View {
     var body: some View {
         VStack {
             PokemonDetailsSectionView(text: "Base Stats")
-            ForEach(stats) { pokemonStat in
+            ForEach(stats.sorted(by: {$0.id < $1.id})) { pokemonStat in
                 PokemonStatInfoView(name: pokemonStat.name, color: color, baseStat: pokemonStat.baseStat, max: maxBaseStats[pokemonStat.id - 1])
             }
         }
@@ -57,5 +57,5 @@ struct PokemonStatInfoView: View {
 }
 
 #Preview {
-    PokemonStatsInfoView(stats: [PokemonStat(id: 1, baseStat: 80), PokemonStat(id: 2, baseStat: 82), PokemonStat(id: 3, baseStat: 83), PokemonStat(id: 4, baseStat: 80), PokemonStat(id: 5, baseStat: 100), PokemonStat(id: 6, baseStat: 100)], color: .grass)
+    PokemonStatsInfoView(stats: [PokemonStat(id: 1, baseStat: 80), PokemonStat(id: 2, baseStat: 82), PokemonStat(id: 3, baseStat: 83), PokemonStat(id: 5, baseStat: 100), PokemonStat(id: 6, baseStat: 100), PokemonStat(id: 4, baseStat: 80)], color: .grass)
 }
