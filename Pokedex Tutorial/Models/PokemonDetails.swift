@@ -14,6 +14,9 @@ struct Pokemon: Identifiable {
     let bodyShapeId: Int
     let genus: String
     let stats: [PokemonStat]
+    let slot1Ability: PokemonAbility
+    let slot2Ability: PokemonAbility?
+    let slot3Ability: PokemonAbility?
 }
 
 struct PokemonStat: Identifiable {
@@ -31,4 +34,9 @@ struct PokemonStat: Identifiable {
         default: return ""
         }
     }
+}
+
+struct PokemonAbility {
+    let name: String
+    let isHidden: Bool
 }

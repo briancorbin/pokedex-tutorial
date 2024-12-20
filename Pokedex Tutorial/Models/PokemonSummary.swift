@@ -13,6 +13,10 @@ struct PokemonSummary: Identifiable {
     let name: String
     let types: [PokemonType]
     
+    var color: Color {
+        return types.first!.color()
+    }
+    
     init(id: Int, name: String, types: [PokemonType]) {
         self.id = id
         self.name = name
