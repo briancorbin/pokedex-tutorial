@@ -43,7 +43,7 @@ struct PokemonAbilityInfoView: View {
     var body: some View {
         HStack {
             Image(systemName: isHidden ? "eye.slash" : "eye")
-            Text(name)
+            Text(name.capitalized)
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .minimumScaleFactor(0.5)
                 .lineLimit(1)

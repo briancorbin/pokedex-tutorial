@@ -27,6 +27,21 @@ class PokedexManager: ObservableObject {
         }
     }
     
+    func fetchPokemonDetails(pokemonId: Int) async throws -> Pokemon {
+        let result = await withCheckedContinuation { continuation in
+            apolloClient.fetch(query: PokemonDetailsQuery(pokemonId: pokemonId)) { result in
+                continuation.resume(returning: result)
+            }
+        }
+        
+        switch result {
+        case .success(let response):
+            return Pokemon(pokemonDetails: response.data!.pokemon_v2_pokemon.first!)
+        case .failure(let error):
+            throw error
+        }
+    }
+    
     private func loadPokemon() {
         let url = Bundle.main.url(forResource: "pokemon", withExtension: "json")
         let jsonData = try! Data(contentsOf: url!)

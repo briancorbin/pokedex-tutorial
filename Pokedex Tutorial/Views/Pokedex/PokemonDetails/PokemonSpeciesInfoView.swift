@@ -41,7 +41,7 @@ struct PokemonSpeciesInfoView: View {
             }
             HStack(alignment: .lastTextBaseline) {
                 Group {
-                    SpeciesInfoImageView(image: Image("icon/bodyshape/Body\(id)"), imageSize: 30, subtitle: "Shape", color: nil)
+                    SpeciesInfoImageView(image: Image("icon/bodyshape/Body\(bodyShapeId)"), imageSize: 30, subtitle: "Shape", color: nil)
                     SpeciesInfoImageView(image: Image("icon/footprint/F\(id)"), imageSize: 30, subtitle: "Footprint", color: color)
                     SpeciesInfoTextView(title: genus.replacingOccurrences(of: " Pokémon", with: "").capitalized, subtitle: "Genus")
                 }

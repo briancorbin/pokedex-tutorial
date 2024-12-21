@@ -38,6 +38,11 @@ struct PokemonDetailsView: View {
                 Spacer()
             }
         }
+        .onAppear {
+            Task.init {
+                self.pokemon = try! await pokedexManager.fetchPokemonDetails(pokemonId: pokemonSummary.id)
+            }
+        }
     }
 }
 

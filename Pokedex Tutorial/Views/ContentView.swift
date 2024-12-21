@@ -11,7 +11,7 @@ struct ContentView: View {
     @StateObject var pokedexManager = PokedexManager()
     
     var body: some View {
-        PokedexView(pokemon: pokedexManager.pokemon)
+        PokedexView(pokemon: pokedexManager.pokemon).environmentObject(pokedexManager)
     }
 }
 
