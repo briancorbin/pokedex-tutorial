@@ -26,7 +26,7 @@ struct PokemonDetailsView: View {
             if let pokemon = pokemon {
                 ScrollView {
                     VStack(spacing: 20) {
-                        PokemonSpeciesInfoView(id: pokemon.id, height: pokemon.height, weight: pokemon.weight, bodyShapeId: pokemon.bodyShapeId, genus: pokemon.genus, color: pokemonSummary.color, playCry: nil)
+                        PokemonSpeciesInfoView(id: pokemon.id, height: pokemon.height, weight: pokemon.weight, bodyShapeId: pokemon.bodyShapeId, genus: pokemon.genus, color: pokemonSummary.color, playCry: PokedexManager.playCry)
                         PokemonAbilitiesView(slot1Ability: pokemon.slot1Ability, slot2Ability: pokemon.slot2Ability, slot3Ability: pokemon.slot3Ability, color: pokemonSummary.color)
                         PokemonStatsInfoView(stats: pokemon.stats, color: pokemonSummary.color)
                     }
