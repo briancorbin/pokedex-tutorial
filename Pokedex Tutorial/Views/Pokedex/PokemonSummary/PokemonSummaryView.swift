@@ -40,10 +40,12 @@ struct PokemonSummaryView: View {
                 }
             }
             
-            Image("sprite/pokemon/\(pokedexNumber)")
-                .resizable()
-                .scaledToFill()
-                .frame(width: 96, height: 96)
+            AsyncImage(url: URL(string: "https://img.pokemondb.net/sprites/black-white/normal/\(pokemonName).png")) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }.frame(width: 96, height: 96)
+                
         }
         .padding(.leading)
         .padding(.vertical, 6)
