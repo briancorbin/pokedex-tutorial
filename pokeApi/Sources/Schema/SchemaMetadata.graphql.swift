@@ -21,6 +21,7 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
   public static func objectType(forTypename typename: String) -> ApolloAPI.Object? {
     switch typename {
     case "pokemon_v2_ability": return PokeApi.Objects.Pokemon_v2_ability
+    case "pokemon_v2_abilityeffecttext": return PokeApi.Objects.Pokemon_v2_abilityeffecttext
     case "pokemon_v2_pokedex": return PokeApi.Objects.Pokemon_v2_pokedex
     case "pokemon_v2_pokemon": return PokeApi.Objects.Pokemon_v2_pokemon
     case "pokemon_v2_pokemonability": return PokeApi.Objects.Pokemon_v2_pokemonability

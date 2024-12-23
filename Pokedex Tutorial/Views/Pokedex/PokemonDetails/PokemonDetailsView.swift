@@ -61,5 +61,5 @@ struct PokemonDetailsSectionView: View {
 }
 
 #Preview("Loading Done") {
-    PokemonDetailsView(pokemonSummary: PokemonSummary(id: 3, name: "Venusaur", types: [.grass, .poison]), pokemon: Pokemon(id: 3, name: "Venusaur", types: [.grass, .poison], height: 20, weight: 1000, bodyShapeId: 2, genus: "Seed", stats: [PokemonStat(id: 1, baseStat: 80), PokemonStat(id: 2, baseStat: 82), PokemonStat(id: 3, baseStat: 83), PokemonStat(id: 4, baseStat: 80), PokemonStat(id: 5, baseStat: 100), PokemonStat(id: 6, baseStat: 100)], slot1Ability: PokemonAbility(name: "Overgrow", isHidden: false), slot2Ability: nil, slot3Ability: PokemonAbility(name: "Chlorophyll", isHidden: true))).environmentObject(PokedexManager())
+    PokemonDetailsView(pokemonSummary: PokemonSummary(id: 3, name: "Venusaur", types: [.grass, .poison]), pokemon: Pokemon(id: 3, name: "Venusaur", types: [.grass, .poison], height: 20, weight: 1000, bodyShapeId: 2, genus: "Seed", stats: [PokemonStat(id: 1, baseStat: 80), PokemonStat(id: 2, baseStat: 82), PokemonStat(id: 3, baseStat: 83), PokemonStat(id: 4, baseStat: 80), PokemonStat(id: 5, baseStat: 100), PokemonStat(id: 6, baseStat: 100)], slot1Ability: PokemonAbility(id: 65, name: "Overgrow", isHidden: false), slot2Ability: nil, slot3Ability: PokemonAbility(id: 34, name: "Chlorophyll", isHidden: true))).environmentObject(PokedexManager())
 }

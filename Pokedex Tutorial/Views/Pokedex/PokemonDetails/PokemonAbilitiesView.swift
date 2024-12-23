@@ -19,31 +19,31 @@ struct PokemonAbilitiesView: View {
             PokemonDetailsSectionView(text: "Abilities")
             VStack {
                 HStack {
-                    PokemonAbilityInfoView(name: slot1Ability.name, isHidden: slot1Ability.isHidden, color: color)
+                    PokemonAbilityView(ability: slot1Ability, color: color)
 
                     if let slot2Ability = slot2Ability {
-                        PokemonAbilityInfoView(name: slot2Ability.name, isHidden: slot2Ability.isHidden, color: color)
+                        PokemonAbilityView(ability: slot2Ability, color: color)
                     }
                 }
 
                 if let slot3Ability = slot3Ability {
-                    PokemonAbilityInfoView(name: slot3Ability.name, isHidden: slot3Ability.isHidden, color: color)
+                    PokemonAbilityView(ability: slot3Ability, color: color)
                 }
             }
         }
     }
 }
 
-struct PokemonAbilityInfoView: View {
-    
-    let name: String
-    let isHidden: Bool
+struct PokemonAbilityView: View {
+    let ability: PokemonAbility
     let color: Color
+    
+    @State private var shouldPresentAbility = false
     
     var body: some View {
         HStack {
-            Image(systemName: isHidden ? "eye.slash" : "eye")
-            Text(name.capitalized)
+            Image(systemName: ability.isHidden ? "eye.slash" : "eye")
+            Text(ability.name.capitalized)
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .minimumScaleFactor(0.5)
                 .lineLimit(1)
@@ -51,12 +51,58 @@ struct PokemonAbilityInfoView: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 9)
-        .background(isHidden ? Color(.systemBackground) : color)
+        .background(ability.isHidden ? Color(.systemBackground) : color)
         .overlay(RoundedRectangle(cornerRadius: 8).stroke(color, lineWidth: 4))
         .cornerRadius(8)
+        .onTapGesture {
+            shouldPresentAbility = true
+        }
+        .sheet(isPresented: $shouldPresentAbility) {
+            PokemonAbilityInfoView(ability: ability).presentationDetents([.medium])
+        }
+    }
+}
+
+struct PokemonAbilityInfoView: View {
+    
+    @EnvironmentObject var pokedexManager: PokedexManager
+    
+    let ability: PokemonAbility
+    @State private var effectText: String?
+
+    var body: some View {
+        ScrollView {
+            VStack {
+                Text(ability.name.capitalized)
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .padding(.top)
+                    .padding(.bottom, 10)
+                Rectangle()
+                    .foregroundColor(Color(.systemFill))
+                    .frame(height: 1)
+                    .padding(.bottom, 10)
+                if let effectText = effectText {
+                    Text(effectText)
+                        .padding(.horizontal)
+                } else {
+                    ProgressView()
+                }
+            }
+            .onAppear() {
+                Task.init {
+                    let effectText = try await pokedexManager.fetchAbilityEffect(abilityId: ability.id)
+                    self.effectText = effectText
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    PokemonAbilitiesView(slot1Ability: PokemonAbility(name: "Overgrow", isHidden: false), slot2Ability: nil, slot3Ability: PokemonAbility(name: "Chlorophyll", isHidden: true), color: .grass)
+    PokemonAbilitiesView(slot1Ability: PokemonAbility(id: 65, name: "Overgrow", isHidden: false), slot2Ability: nil, slot3Ability: PokemonAbility(id: 34, name: "Chlorophyll", isHidden: true), color: .grass).environmentObject(PokedexManager())
+}
+
+#Preview {
+    PokemonAbilityInfoView(ability: PokemonAbility(id: 65, name: "Overgrow", isHidden: false)).environmentObject(PokedexManager())
 }

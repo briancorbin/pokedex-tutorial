@@ -1,0 +1,9 @@
+query pokemonAbility($abilityId: Int!) {
+  pokemon_v2_ability(where: {id: {_eq: $abilityId}}) {
+    name
+    pokemon_v2_abilityeffecttexts(where: {language_id: {_eq: 9}}) {
+      effect
+    }
+  }
+}
+

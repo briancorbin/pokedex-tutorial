@@ -55,7 +55,7 @@ struct Pokemon: Identifiable {
         var slot2Ability: PokemonAbility?
         var slot3Ability: PokemonAbility?
         for ability in pokemonDetails.pokemon_v2_pokemonabilities {
-            let pokemonAbility = PokemonAbility(name: ability.pokemon_v2_ability!.name, isHidden: ability.is_hidden)
+            let pokemonAbility = PokemonAbility(id: ability.pokemon_v2_ability!.id, name: ability.pokemon_v2_ability!.name, isHidden: ability.is_hidden)
             if ability.slot == 1 {
                 slot1Ability = pokemonAbility
             } else if ability.slot == 2 {
@@ -94,10 +94,12 @@ struct PokemonStat: Identifiable {
 }
 
 struct PokemonAbility {
+    let id: Int
     let name: String
     let isHidden: Bool
     
-    init(name: String, isHidden: Bool) {
+    init(id: Int, name: String, isHidden: Bool) {
+        self.id = id
         self.name = name
         self.isHidden = isHidden
     }

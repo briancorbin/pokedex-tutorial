@@ -27,6 +27,21 @@ class PokedexManager: ObservableObject {
         }
     }
     
+    func fetchAbilityEffect(abilityId: Int) async throws -> String {
+        let result = await withCheckedContinuation { continuation in
+            apolloClient.fetch(query: PokemonAbilityQuery(abilityId: abilityId)) { result in
+                continuation.resume(returning: result)
+            }
+        }
+        
+        switch result {
+        case .success(let response):
+            return response.data!.pokemon_v2_ability.first!.pokemon_v2_abilityeffecttexts.first!.effect
+        case .failure(let error):
+            throw error
+        }
+    }
+    
     func fetchPokemonDetails(pokemonId: Int) async throws -> Pokemon {
         let result = await withCheckedContinuation { continuation in
             apolloClient.fetch(query: PokemonDetailsQuery(pokemonId: pokemonId)) { result in
