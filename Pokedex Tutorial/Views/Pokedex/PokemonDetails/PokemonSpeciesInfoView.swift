@@ -42,11 +42,31 @@ struct PokemonSpeciesInfoView: View {
             HStack(alignment: .lastTextBaseline) {
                 Group {
                     SpeciesInfoImageView(image: Image("icon/bodyshape/Body\(bodyShapeId)"), imageSize: 30, subtitle: "Shape", color: nil)
-                    SpeciesInfoImageView(image: Image("icon/footprint/F\(id)"), imageSize: 30, subtitle: "Footprint", color: color)
+                    SpeciesInfoFootprintView(speciesId: id)
                     SpeciesInfoTextView(title: genus.replacingOccurrences(of: " Pokémon", with: "").capitalized, subtitle: "Genus")
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
             }
+        }
+    }
+}
+
+struct SpeciesInfoFootprintView: View {
+    let speciesId: Int
+    
+    private var speciesIdFormatted: String {
+        return "\(String(format: "%03d", speciesId))"
+    }
+    
+    var body: some View {
+        VStack(spacing: 0) {
+            AsyncImage(url: URL(string: "https://pokencyclopedia.info/sprites/footprints/ftp__\(speciesIdFormatted).png")) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }.frame(width: 30, height: 30)
+            Text("Footprint")
+                .font(.caption)
         }
     }
 }
